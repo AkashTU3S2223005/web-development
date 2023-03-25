@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            background-color: burlywood;
+        }
+        .box{
+            height: 10rem;
+            width: 10rem;
+            background-color: green;
+            position: relative;
+            animation-name: animatebox; /* name to the animation*/
+            animation-duration: 5s; /* duration*/
+            animation-iteration-count: 1; /* how many times u wanna repeat the animation*/
+            animation-fill-mode: forwards;/* hold end result*/
+            animation-timing-function: ease;
+            /* animation-delay: 2s;delay animation */
+            /* animation-direction: reverse; */
+            transition-property: background-color;
+            transition-duration:5s;
+            transition-timing-function: ease;
+        }
+        @keyframes animatebox {
+            /* from{
+                width:10rem;
+            }
+            to{
+                width: 50rem;
+            } */
+            0%{
+                top:0rem;
+                left:0rem;
+                background-color: red;
+            }
+            25%
+            {
+                top:10rem;
+                left:0;
+                background-color: grey;
+            }
+            75%
+            {
+                top:10rem;
+                left:10rem;
+                background-color: pink;
+            }
+            100%
+            {
+                top:0rem;
+                left:10rem;
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            This is box
+        </div>
+    </div>
+    
+</body>
+</html>

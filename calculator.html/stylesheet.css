@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-align:center;
+    margin-top: 2rem;
+
+}
+
+body{
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?w=2000);
+    background-color:crimson;
+    background-blend-mode: soft-light;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    margin-top: 5rem;
+}
+.container{
+    height: 400px;
+    width: 362px;
+    background-color: rgba(92, 99, 110, 0.997);
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px;
+}
+.container input{
+    width: 362px;
+    height: 122px;
+    font-size: 2rem;
+    border: 1px black solid;
+    border-radius: 0.5rem;
+}
+.button_container{
+    margin: 0.5rem;
+    height:400px;
+    width: 332px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+
+.button{
+    width: 5rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: white;
+    border:black solid 1px;
+    display: inline;
+    border-radius: 1rem;
+    /* box-shadow: 10px 10px 7px; */
+}
+
+.button:hover{
+    background-color: rgb(130, 226, 223);
+    cursor: pointer;
+}

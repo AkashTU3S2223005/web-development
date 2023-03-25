@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.flex-row{
+    display: flex; /*flex->flexible block*/
+    flex-direction: row;
+    /* justify-content: center align flex object to the center */
+    justify-content: center;
+    /* align-items: center aligns item to the center from top and bottom */
+    align-items: center;
+} 
+.flex-col{
+    display: flex; /*flex->flexible block*/
+    flex-direction: column;
+    /* justify-content: center align flex object to the center */
+    justify-content: center;
+    /* align-items: center aligns item to the center from top and bottom */
+    align-items: center;
+}
+
+#title{
+    height: 58px;
+    width: 692px;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: #58ECB7;
+    display: inline-block;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+    border-radius: 44px;
+    box-shadow: 10px 10px 15px;
+}
+
+.board{
+    height:483px;
+    width:692px;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 44px;
+    background-color: #58ECB7;
+    box-shadow: 10px 10px 15px;
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: white;
+    border:black solid 3px;
+    display: inline;
+    box-shadow: 10px 10px 7px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.board div :hover{
+    background-color: #58ECB7;
+    cursor: pointer;
+}
+
+.footer{
+    height:2rem;
+    width:692px;
+    background-color: cornsilk;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+

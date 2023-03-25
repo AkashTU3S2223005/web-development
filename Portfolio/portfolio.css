@@ -1,0 +1,82 @@
+*{
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+}
+/* body{
+     background-image: url(https://news.ccc.edu/wp-content/uploads/2021/09/Wright-Engineering-Art.jpg);
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-blend-mode: hard-light; 
+} */
+body{
+    color:white;
+    margin: 0;
+    padding: 0;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 10rem;
+   
+}
+.nav h3{
+    margin-left: 15rem;
+    font-size: 1.5rem;
+}
+.nav li{
+    list-style: none;
+    padding: 1rem;
+    margin:1rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section{
+    height: 100%;
+    width: auto;
+    padding: 1rem;
+    margin-top: 10rem;
+    /* border: 0.1rem black solid; */
+    width: auto;
+}
+header::before{
+    content: "";
+    background: url(https://wallpaperaccess.com/full/1428482.jpg) no-repeat center center/cover;
+    position: absolute;
+    background-color: black;
+    color:white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+p{
+    text-align: center ;
+    font-size: 1.2rem;
+    text-shadow: 5px 5px 5px black;
+}

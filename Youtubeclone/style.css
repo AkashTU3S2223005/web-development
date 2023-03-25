@@ -1,0 +1,168 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#top_nav_bar{
+    justify-content: space-between;
+    position: fixed;
+    width: 99vw;
+    color: white;
+    background-color: #000000 ;
+    height: 5vw;
+}
+#menu_icon{
+    padding: 2rem;
+    width: 5vw;
+}
+
+#utube_icon i{
+    color: red;
+}
+
+.yt_name{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.5rem;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#search_block i{
+    size: 2rem;
+}
+#center{
+    margin:1rem;
+}
+
+input{
+    outline:none;
+    padding-left: 0.5rem;
+    width: 25rem;
+    height:6vh;
+    font-size: 0.9rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #121212;
+    border: 1px solid hsl(0, 0%, 18.82%);
+    color: white;
+}
+
+input:focus{
+    transition: all 0.5ms;
+    border: 1px solid rgb(40, 40, 250);
+}
+
+.search_icon{
+    width: 4vw;
+    height:6vh;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 18.82%);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+
+}
+
+.micro_phone{
+    margin: 1rem;
+    width: 3vw;
+    height:6vh;
+    border-radius: 1.2rem;
+   
+
+}
+.micro_phone:hover{
+    background-color: hsl(0, 0%, 18.82%);
+}
+
+.right i{
+    padding-top: 1rem;
+    width: 3vw;
+    height:6vh;
+}
+
+#left_nav_bar{
+    top: 10vh;
+    position: fixed;
+    height: 95vh;
+    width: 5vw;
+    /* padding: 1rem; */
+    background-color: #000000;
+    color: white;
+    font-size: 0.9rem;
+}
+
+
+.menu_item{
+    height: 5rem;
+    border-radius: 0.5rem;}
+
+.menu_item:hover{
+    transition: all 0.5ms;
+    background-color: hsl(0, 0%, 18.82%);
+}
+#left_nav_bar i{
+    margin-bottom: 0.6rem;
+}
+.content_head{
+    font-size: 1rem;
+}
+.content_right div{
+    margin:0rem;
+}
+.info{
+    color: #717171;
+}
+#container{
+    background-color: #000000;
+    color:  white;
+    width:95vw;
+    padding: 1rem;
+    position: relative;
+    z-index: -1;
+    top: 10vh;
+    left: 5vw;
+}
+
+.box video{
+    width: 20vw;
+    height: 40vh;
+}
+
+.video{
+    margin-left:0rem;
+}
+.content{
+    color: white;
+}
+
+.content_right{
+    padding: 1rem;
+    width:15vw;
+}
+
+.box{
+ margin:0.1rem;
+ flex-grow: 1;
+ height: 55vh;
+ width: 20vw;   
+}
+
+.container-box{
+    justify-content: initial;
+    flex-wrap: wrap;
+}

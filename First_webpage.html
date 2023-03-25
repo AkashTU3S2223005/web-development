@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    
+   <style>
+    /* . class
+    # id */
+        #para{
+             color: darkorange;
+             background-color: rgb(251, 244, 244);
+        }
+        .anime{
+            /* display: inline*/
+            color: red;
+            background-color: yellow;
+            
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <hr>
+    <div id="para">
+        <p>
+            Typing is the process of writing or inputting text by pressing keys on a typewriter, computer keyboard, mobile phone or calculator.
+             It can be distinguished from other means of text input, such as handwriting and speech recognition. 
+             Text can be in the form of letters, numbers and other symbols.
+        </p>
+    </div>
+    
+    <hr>
+    <h2 class="anime">Naruto characters:</h2>
+   <!--<ol>
+        <li>Naruto</li>
+        <li>Sasukuke</li>
+        <li>Sakura</li>
+    </ol>-->
+    <ul class="anime">
+        <li>Naruto</li>
+        <li>Sasukuke</li>
+        <li>Sakura</li>
+    </ul>
+    <hr>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Roll</th>
+            <th>college</th>
+        </tr>
+        <tr>
+            <td>Akash</td>
+            <td>B67</td>
+            <td>Terna</td>
+        </tr>
+        <tr>
+            <td>Naruto</td>
+            <td>B67</td>
+            <td>Terna</td>
+        </tr>
+        <tr>
+            <td>Gara</td>
+            <td>B67</td>
+            <td>Terna</td>
+        </tr>
+    </table>
+    <hr>
+    <img src="https://assets.nflxext.com/ffe/siteui/vlv3/a43711df-c428-4f88-8bb3-b2ac5f20608f/32935458-d049-44c2-b94b-32f16d60ded1/IN-en-20230227-popsignuptwoweeks-perspective_alpha_website_large.jpg" alt="Netflix" width="50%" height="50%">
+    <hr>
+    <a href="https://www.google.com/" target="_blank"><h1>Google</h1></a>
+    <!-- Form -->
+    <form>
+        <label for="name" >name</label>
+        <input type="text" id="name">
+        <hr>
+        <label for="email">Email</label>
+        <input type="email" id="mail">
+        <hr>
+        <label>Gender</label>
+        <select name="gender">
+            <option value="male" >Male</option>
+            <option value="female" disabled>Female</option>
+        </select>
+        <button class="b1" type="submit">Submit</button>
+        <button type="reset"> reset</button>
+    </form>
+    <hr>
+    <video width="200px" height="200px" controls>
+        <source src="" type="vide/mp4">
+    </video>
+    <hr>
+    <label for="dob">DOB</label>
+    <input type="date" name="dob">
+    <hr>
+    <label for="gender">gender</label>
+    <br>
+    <label for="male">male</label>
+    <input type="radio" name="gender">
+    <label for="female">female</label>
+    <input type="radio" name="gender">
+</body>
+</html>

@@ -1,0 +1,38 @@
+.box{
+    color: blue;
+    background-color: whitesmoke;
+    align-items: center;
+    align-content: center;
+   /* padding-left: 50%;*/
+}
+td{
+    padding: 5px;
+    border: 2px black solid;
+   
+}
+th{
+    border: 2px black solid;
+}
+table{
+    border-collapse: collapse;
+
+}
+tr:nth-child(even){
+    background-color: red;
+}
+tr:hover{
+    background-color: violet;
+}
+
+button{
+    background-color: red;
+    border: none;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    box-shadow: 0.1rem 0.1rem 1rem;
+}
+button:hover{
+    background-color: white;
+    border-radius: 0.3;
+}
