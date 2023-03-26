@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tut48</title>
+  
+</head>
+<body>
+    <h3>Data types, variable and operators</h3>
+    <h3>strings</h3>
+    <div id="content"></div>
+    <script>
+        // var a=10;//dynamic typing no need to define data types
+        // var b=2;
+        // console.log(a+b);
+
+        // //arithematic operators in javascript
+        // console.log("Addition "+(a+b));
+        // console.log("Multiplication "+(a*b));
+        // console.log("Division "+(a/b));
+        // console.log("power "+(a**b));
+        // console.log("PostIncrement a++: "+(a++));
+        // console.log("PreIncrement ++a: "+(++a));
+        // console.log("Modulous "+(a%b));
+
+
+        //var string="akash"
+        //+ concatenate operator in string
+        // var first_name="Akash";
+        // var last_name="Dange";
+        // var message="hello "
+        // var temp=`hello,${first_name} welcome to javascript`;//templet
+        // console.log(temp);
+        // console.log(first_name+last_name);
+        
+        // //length
+        // var len=first_name.length;
+        // console.log(`length of ${first_name}:${len}`);
+
+        // var str= new String("this");
+        // console.log(str);
+        // document.getElementById('content').innerHTML =' <h3>DOM</h3> '
+
+
+        //string functions
+
+        var str="this is a string";
+        console.log(str);
+
+        var position=str.indexOf("is");//first occurence of sub string
+        console.log(position)
+
+        var position=str.lastIndexOf('is')// last occurene of substring
+        console.log(position);
+
+        var substr=str.substring(1,7);//start and end 1-6
+        console.log(substr)
+        substr=str.slice(1,5)//start and end 1-4
+        console.log(substr);
+
+        var substr1=str.substr(1,2)//start and length
+       
+        console.log(substr1)
+
+        var replaced=str.replace("string","Akash")
+        console.log(str)
+        console.log(replaced)
+
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+
+        var trimstr="   Akash   Dange ";
+        console.log(trimstr)
+        console.log(trimstr.trim())//remove whitespace from start and end of the string
+
+        var name="Akash"
+        //console.log(name.charAt(1))
+        console.log(name.charCodeAt(1))
+    </script>
+</body>
+</html>
